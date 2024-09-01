@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #select, #number {
+            height: 30px;
+        }
+        #btn {
+            background-color: violet;
+            border-radius: 5px;
+            border: 1px none pink;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Кого или что будем искать?</h1>
+    <select name="select" id="select">
+        <option value="films">Фильмы</option>
+        <option value="people">Людей</option>
+        <option value="planets">Планеты</option>
+        <option value="starships">Корабли</option>
+    </select>
+    <input type="number" name="number" id="number">
+    <button id="btn">Вперёд!</button>
+    <div class="output"></div>
+    
+    <script src="starwars.js"></script>
+</body>
+</html>
